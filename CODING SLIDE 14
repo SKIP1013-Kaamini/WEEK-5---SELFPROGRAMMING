@@ -1,0 +1,21 @@
+package SelfProgramming;
+
+class notesslide14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Declare the variables
+		 double total = 50;
+		 double MAX = 40;
+		 int errorCount = 40;
+		
+		 System.out.println("The total is :"+ total);
+		 System.out.println("The maximum amont:"+ MAX);
+		 
+		 
+		 if (total > MAX)
+		 {
+		    System.out.println ("Error!!");
+		    errorCount++;
+		 }
