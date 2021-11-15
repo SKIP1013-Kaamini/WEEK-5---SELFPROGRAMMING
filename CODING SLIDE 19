@@ -1,0 +1,19 @@
+package SelfProgramming;
+
+class notesslide19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double amount = 500;
+		double balance = 5000;
+		
+		
+		if  ((amount <= 1000.0) && (amount <= balance))
+		{ balance = balance - amount; 
+		System.out.println("Accountt new balance = " + balance);
+		}
+
+	}
+
+}
