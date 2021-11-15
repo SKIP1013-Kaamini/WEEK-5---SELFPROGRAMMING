@@ -1,0 +1,22 @@
+package SelfProgramming;
+
+class notesslides16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		int age = 49;//declare variable
+		double income = 6000;
+		double MIN_LEVEL = 5000;
+		
+		if ((income > MIN_LEVEL ) && (age <50))//the age is below 50 & icome more than min
+			   System.out.println ("Can Apply Loan");//true
+		System.out.println((age>50)&&(income >= MIN_LEVEL));
+		System.out.println((age<50)&&(income >= MIN_LEVEL));
+		if((age<50)&&(income >= MIN_LEVEL))
+			System.out.println ("Can Apply Loan");
+
+		
+	}
+
+}
