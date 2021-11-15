@@ -1,0 +1,28 @@
+package SelfProgramming;
+import java.util.Scanner;
+class notesslide15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name;
+		double amount;
+		double balance;
+		double total = 5000;
+		
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Hello sir/madam");
+		System.out.println("Please enter your name:");
+		name = scan.next();
+		System.out.println("Your name is :"+name);
+		System.out.println("Please enter the amount :");
+		amount = scan.nextDouble();
+		System.out.println("The amount is:"+ amount);
+		System.out.println("Your total is"+ total);
+		if (amount <= total)
+		{ balance = total - amount;   
+		System.out.println("Account balance = " + balance);
+		}
+		
